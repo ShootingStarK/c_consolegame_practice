@@ -66,11 +66,11 @@ int drawmenu() {
 	int x = 24;
 	int y = 12;
 	gotoxy(24 - 2, 12);
-	printf("> 게 임 시 작");
+	printf("> Game Start");
 	gotoxy(24, 13);
-	printf("게 임 정 보");
+	printf("Game Information");
 	gotoxy(24, 14);
-	printf("   종  료  ");
+	printf("Exit");
 	while (1)
 	{
 		int n = keyControl();
